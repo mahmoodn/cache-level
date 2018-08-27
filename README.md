@@ -24,6 +24,7 @@ For each bit, 0 means enable and 1 means disable. Some examples
 ```
 wrmsr -p0 0x1a4 0     # enables all prefetchers on processor 0
 wrmsr -p0 0x1a4 15    # disables all prefetchers on processor 0
+wrmsr -a 0x1a4 15    # disables all prefetchers on all processors
 ```
 
 
