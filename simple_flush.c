@@ -1,3 +1,7 @@
+/* Compile:   gcc -Wall -O3 -g -o simple_flush simple_flush.c
+       Run:   taskset -c 0 ./simple_flush
+*/
+
 #include <stdio.h>
 #include <x86intrin.h>
 #include <stdint.h>
